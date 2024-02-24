@@ -57,7 +57,7 @@ function animateParticles() {
 }
 
 function text() {
-  const loader = new FontLoader();  // Use your custom FontLoader
+  const loader = new FontLoader(); 
   loader.load('assets/fonts/Roboto_Regular.json', function (font) {
     const textGeometry = new TextGeometry('Kobe', {
       font: font,
