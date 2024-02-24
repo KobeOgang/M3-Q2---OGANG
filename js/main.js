@@ -1,6 +1,6 @@
 import * as THREE from './three.module.js';
-import { FontLoader } from './FontLoader.js';  // Corrected import
-import { TextGeometry } from './TextGeometry.js';  // Corrected import
+import { FontLoader } from './FontLoader.js';  
+import { TextGeometry } from './TextGeometry.js';  
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
